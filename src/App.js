@@ -50,6 +50,10 @@ function App() {
 
     // 객체 넣기
     setTodoList([...todoList, newTodo])
+    
+    // 초기화
+    setTitle('')
+    setContent('')
   }
 
   // 삭제하기 버튼
